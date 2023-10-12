@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./index.js",
+  "bin": {
+    "ts-guessinggame ": "dist/index.js"
+  },
   "type": "module",
   "keywords": [
     "typescript",
